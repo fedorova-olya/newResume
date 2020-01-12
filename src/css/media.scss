@@ -1,0 +1,178 @@
+@media screen and (max-width: 430px) {
+	// .wrapper {
+	//     width: 100%;
+	// }
+
+	header {
+		min-width: 100%;
+
+		.wrapper {
+			width: 100%;
+
+			.header_block1 {
+				display: none;
+			}
+
+			.header_block2 {
+				width: 95%;
+
+				.myFoto {
+					width: 40%;
+				}
+
+				.bloc_aboutMe {
+					width: 55%;
+					font-size: 12px;
+
+					p.myName {
+						font-size: 15px;
+						margin-left: 5px;
+						margin-top: 5px;
+					}
+
+					p.myName:before {
+						height: 30px;
+						top: -37px;
+
+					}
+
+					p.myName:after {
+						display: none;
+					}
+
+					.myName+p {
+						margin: 3px 0 3px 5px;
+						font-size: 12px;
+					}
+
+					ul.aboutMe_info {
+						padding-top: 2px;
+						margin: 0px 5px;
+
+						li {
+							margin-top: 5px;
+							display: block;
+
+							span {
+								display: block;
+								margin-bottom: 2px;
+							}
+						}
+					}
+
+					ul.aboutMe_social {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		min-width: 100%;
+
+		.main_block {
+			width: 100%;
+
+			.block_text {
+				width: 100%;
+			}
+
+			ul.skillsList {
+				width: 100%;
+			}
+		}
+
+		.block_education {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: center;
+
+			.education_block {
+				width: 85%;
+				padding: 5%;
+				background: #fff;
+				border-radius: 24px;
+				margin-bottom: 20px;
+				position: relative;
+
+				h4 {
+					font-size: 18px;
+					margin: 5px 0 15px;
+					font-weight: 600;
+					color: #000;
+				}
+
+				h5 {
+					font-style: italic;
+					margin-bottom: 5px;
+					color: #6da;
+
+				}
+
+				p {
+					margin: 0 0 15px 0;
+				}
+			}
+
+			.education_block:before {
+				content: "";
+				position: absolute;
+				top: -10px;
+				right: 35px;
+				width: 0;
+				height: 40px;
+				border-left: 12px solid #cd607e;
+				border-right: 12px solid #cd607e;
+				border-bottom: 10px solid transparent;
+			}
+
+			.education_block:after {
+				content: "";
+				position: absolute;
+				top: -20px;
+				right: 54px;
+				width: 0;
+				height: 10px;
+				border-left: 5px solid transparent;
+				border-right: 5px solid transparent;
+				border-bottom: 11px solid #cd607e;
+			}
+
+			.education_block:hover {
+				text-align: left;
+			}
+
+		}
+
+		.block_experience {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+
+			justify-content: center;
+
+			.exrerience_block {
+				width: 95%;
+				display: flex;
+				flex-wrap: wrap;
+				border-left: #0eb57b solid 2px;
+
+
+
+			}
+		}
+		.block_portfolio{
+			width: 100%;
+			.portfolio_block{
+img{
+	width: 100%;
+}
+			}
+
+		}
+	}
+
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Centura Round';
+    src: url('../../build/fonts/CenturaRound/CenturaRound-Bold.eot');
+    src: local('Centura Round Bold'), local('CenturaRound-Bold'),
+        url('../../build/fonts/CenturaRound/CenturaRound-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/CenturaRound/CenturaRound-Bold.woff2') format('woff2'),
+        url('../../build/fonts/CenturaRound/CenturaRound-Bold.woff') format('woff'),
+        url('../../build/fonts/CenturaRound/CenturaRound-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Centura Round';
+    src: url('../../build/fonts/CenturaRound/CenturaRoundBlack.eot');
+    src: local('Centura Round Black'), local('CenturaRoundBlack'),
+        url('../../build/fonts/CenturaRound/CenturaRoundBlack.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/CenturaRound/CenturaRoundBlack.woff2') format('woff2'),
+        url('../../build/fonts/CenturaRound/CenturaRoundBlack.woff') format('woff'),
+        url('../../build/fonts/CenturaRound/CenturaRoundBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Centura Round';
+    src: url('../../build/fonts/CenturaRound/CenturaRound.eot');
+    src: local('Centura Round'), local('CenturaRound'),
+        url('../../build/fonts/CenturaRound/CenturaRound.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/CenturaRound/CenturaRound.woff2') format('woff2'),
+        url('../../build/fonts/CenturaRound/CenturaRound.woff') format('woff'),
+        url('../../build/fonts/CenturaRound/CenturaRound.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('../../build/fonts/gothamPro/GothamPro.eot');
+    src: url('../../build/fonts/gothamPro/GothamPro.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/gothamPro/GothamPro.woff') format('woff'),
+        url('../../build/fonts/gothamPro/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
