@@ -211,7 +211,7 @@ main {
 
 
         .block_text,
-        .skillsList {
+        ul.skillsList {
             width: 40%;
             padding: 30px;
 
@@ -221,7 +221,6 @@ main {
                 margin: 15px 0;
                 position: relative;
                 padding-left: 10px;
-                //list-style: url("../../build/img/list_icon.png");
             }
 
             li:before {
@@ -236,6 +235,24 @@ main {
             }
 
 
+        }
+
+        .block_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            ul.block_text_list {
+                li {
+                    font-size: 14px;
+                }
+
+                li:before {
+                    content: "-";
+                    background: transparent;
+                    left: 0;
+                }
+            }
         }
 
     }
@@ -325,16 +342,46 @@ main {
     }
 
     .block_portfolio {
+        h3 {
+            position: relative;
+        }
+
+        h3:before {
+            content: "<";
+            position: absolute;
+            top: 24px;
+            left: 37px;
+            font-size: 40px;
+        }
+
+        h3:after {
+            content: ">";
+            position: absolute;
+            top: 24px;
+            right: 37px;
+            font-size: 40px;
+        }
+
         .owl-theme .owl-dots {
             display: none;
         }
 
         .owl-carousel {
+            font-size: 50px;
+
             .item {
                 a {
 
                     img {
                         max-height: 530px;
+                    }
+                }
+            }
+
+            .owl-nav {
+                button {
+                    span {
+                        margin: 0 50px;
                     }
                 }
             }

@@ -581,18 +581,18 @@ main {
     flex-wrap: wrap;
     background: #fff; }
     main .main_block .block_text,
-    main .main_block .skillsList {
+    main .main_block ul.skillsList {
       width: 40%;
       padding: 30px; }
       main .main_block .block_text li,
-      main .main_block .skillsList li {
+      main .main_block ul.skillsList li {
         font-size: 17px;
         font-weight: 600;
         margin: 15px 0;
         position: relative;
         padding-left: 10px; }
       main .main_block .block_text li:before,
-      main .main_block .skillsList li:before {
+      main .main_block ul.skillsList li:before {
         display: inline-block;
         content: "";
         width: 10px;
@@ -601,6 +601,16 @@ main {
         position: absolute;
         top: 0;
         left: -10px; }
+    main .main_block .block_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+      main .main_block .block_text ul.block_text_list li {
+        font-size: 14px; }
+      main .main_block .block_text ul.block_text_list li:before {
+        content: "-";
+        background: transparent;
+        left: 0; }
   main .block_education {
     display: flex;
     flex-direction: column;
@@ -656,9 +666,27 @@ main {
         position: absolute;
         top: 25px;
         left: -28px; }
+  main .block_portfolio h3 {
+    position: relative; }
+  main .block_portfolio h3:before {
+    content: "<";
+    position: absolute;
+    top: 24px;
+    left: 37px;
+    font-size: 40px; }
+  main .block_portfolio h3:after {
+    content: ">";
+    position: absolute;
+    top: 24px;
+    right: 37px;
+    font-size: 40px; }
   main .block_portfolio .owl-theme .owl-dots {
     display: none; }
-  main .block_portfolio .owl-carousel .item a img {
-    max-height: 530px; }
+  main .block_portfolio .owl-carousel {
+    font-size: 50px; }
+    main .block_portfolio .owl-carousel .item a img {
+      max-height: 530px; }
+    main .block_portfolio .owl-carousel .owl-nav button span {
+      margin: 0 50px; }
 
 /*# sourceMappingURL=main.css.map */
