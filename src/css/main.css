@@ -624,8 +624,6 @@ main {
       position: relative; }
       main .block_education .education_block p {
         margin: 0 0 15px 0; }
-    main .block_education .education_block:hover {
-      text-align: right; }
     main .block_education .education_block__right {
       align-self: flex-end; }
   main .block_experience {
@@ -686,6 +684,13 @@ main {
     font-size: 50px; }
     main .block_portfolio .owl-carousel .item a img {
       max-height: 530px; }
+    main .block_portfolio .owl-carousel .calculator a,
+    main .block_portfolio .owl-carousel .seabuttle a {
+      display: block;
+      background: url("../../build/img/calculator.jpg") left/cover no-repeat;
+      min-height: 530px; }
+    main .block_portfolio .owl-carousel .seabuttle a {
+      background: url("../../build/img/seaBattle.png") left/cover no-repeat; }
     main .block_portfolio .owl-carousel .owl-nav button span {
       margin: 0 50px; }
 

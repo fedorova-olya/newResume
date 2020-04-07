@@ -275,11 +275,6 @@ main {
                 margin: 0 0 15px 0;
             }
 
-
-        }
-
-        .education_block:hover {
-            text-align: right;
         }
 
         .education_block__right {
@@ -370,11 +365,29 @@ main {
             font-size: 50px;
 
             .item {
+               
+
                 a {
+                
 
                     img {
                         max-height: 530px;
+                        
                     }
+                }
+            }
+
+            .calculator,
+            .seabuttle {
+                a{
+                    display: block;
+                background: url("../../build/img/calculator.jpg") left / cover no-repeat;
+                min-height: 530px;
+                }
+            }
+            .seabuttle {
+                a{
+                background: url('../../build/img/seaBattle.png') left / cover no-repeat;
                 }
             }
 

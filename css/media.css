@@ -1,0 +1,159 @@
+@media screen and (max-width: 350px) {
+  body {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  header {
+    min-width: 100%;
+  }
+  header .wrapper {
+    width: 100%;
+  }
+  header .wrapper .header_block1 {
+    display: none;
+  }
+  header .wrapper .header_block2 {
+    width: 95%;
+  }
+  header .wrapper .header_block2 .myFoto {
+    width: 40%;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe {
+    width: 55%;
+    font-size: 12px;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe p.myName {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe p.myName:before {
+    height: 30px;
+    top: -37px;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe p.myName:after {
+    display: none;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe .myName + p {
+    margin: 3px 0 3px 5px;
+    font-size: 12px;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe ul.aboutMe_info {
+    padding-top: 2px;
+    margin: 0px 5px;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe ul.aboutMe_info li {
+    margin-top: 5px;
+    display: block;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe ul.aboutMe_info li span {
+    display: block;
+    margin-bottom: 2px;
+  }
+  header .wrapper .header_block2 .bloc_aboutMe ul.aboutMe_social {
+    margin-top: 0;
+  }
+  main {
+    min-width: 100%;
+  }
+  main .main_block {
+    width: 100%;
+  }
+  main .main_block .block_text {
+    width: 100%;
+  }
+  main .main_block ul.skillsList {
+    width: 100%;
+  }
+  main .block_education {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .block_education .education_block {
+    width: 85%;
+    padding: 5%;
+    background: #fff;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  main .block_education .education_block h4 {
+    font-size: 18px;
+    margin: 5px 0 15px;
+    font-weight: 600;
+    color: #000;
+  }
+  main .block_education .education_block h5 {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #6da;
+  }
+  main .block_education .education_block p {
+    margin: 0 0 15px 0;
+  }
+  main .block_education .education_block:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 35px;
+    width: 0;
+    height: 40px;
+    border-left: 12px solid #cd607e;
+    border-right: 12px solid #cd607e;
+    border-bottom: 10px solid transparent;
+  }
+  main .block_education .education_block:after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 54px;
+    width: 0;
+    height: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 11px solid #cd607e;
+  }
+  main .block_education .education_block:hover {
+    text-align: left;
+  }
+  main .block_experience {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .block_experience .exrerience_block {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-left: #0eb57b solid 2px;
+  }
+  main .block_portfolio {
+    width: 100%;
+  }
+  main .block_portfolio .portfolio_block img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
